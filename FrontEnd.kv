@@ -1,0 +1,35 @@
+MainScreen:
+
+<StLayout>:
+
+
+<BLayout>:
+    BoxLayout:
+        size_hint: (0.3, 1)
+        Label:
+            text: "A"
+            font_size: 45
+            color: (0, 0, 0, 1)
+            canvas.before:
+                Color:
+                    rgba: 0.5, 0.5, 0.5, 1
+                Rectangle:
+                    size: self.size
+                    pos: self.pos
+    StLayout:
+
+<MainScreen>:
+    canvas.before:
+        Color:
+            rgba: 1, 1, 1, 1
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    BLayout:
+            
+            
+
+
+
+              
+            
